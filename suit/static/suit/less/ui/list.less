@@ -24,16 +24,22 @@
 
 /* ACTIONS */
 
-#changelist .actions span.all,
-#changelist .actions span.action-counter,
-#changelist .actions span.clear,
-#changelist .actions span.question {
+// Added .hidden clause, and commended out the next to blocks since Django 3.2
+
+.hidden {
     display: none;
 }
 
-#changelist #action-toggle {
-    display: none;
-}
+// #changelist .actions span.all {
+// #changelist .actions span.action-counter,
+// #changelist .actions span.clear {
+// #changelist .actions span.question {
+//     display: none;
+// }
+
+// #changelist #action-toggle {
+//     display: none;
+// }
 
 /* Decided to hide action label */
 #changelist .actions span.action-label {
