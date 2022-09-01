@@ -4,6 +4,10 @@ Changelog
 Only important changes are mentioned below. See `commit log <https://github.com/darklow/django-suit/commits/develop>`_, `closed issues <https://github.com/darklow/django-suit/issues?direction=desc&sort=updated&state=closed>`_ and `closed pull
 requests <https://github.com/darklow/django-suit/pulls?q=sort%3Aupdated-desc+is%3Apr+is%3Aclosed>`_ for full changes.
 
+v.0.3.1 (2022-09-01)
+
+* [Fix] Django 4 compatibility fixes. Thanks to @jorenham for `#1 <https://github.com/mhindery/django-suit/pull/1>`_.
+
 v.0.2.29 (2021-04-28)
 --------------------
 * This is a 'maintenance fork' which contains some fixes for compatibility with the latest Django releases.
@@ -242,7 +246,7 @@ v0.1.8 (2013-03-20)
 * [Feature] `Full-width fieldsets <http://django-suit.readthedocs.org/en/develop/widgets.html#css-goodies>`_
 * [Feature] Introduced two related wysiwyg apps `suit-redactor <https://github.com/darklow/django-suit-redactor>`_ and `suit-ckeditor <https://github.com/darklow/django-suit-ckeditor>`_
 * [CSS] New "multi-fields in row" look and behaviour.
-* [CSS] Support for fieldset "wide" class 
+* [CSS] Support for fieldset "wide" class
 * [Refactor] Major fieldset refactoring to support multi-line labels
 * [Fix] Many CSS/Templating fixes and tweaks. See commit log for full changes
 
