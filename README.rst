@@ -6,7 +6,7 @@ This is a fork of the unmaintaned upstream `django-suit <https://github.com/dark
 
 Install this using pip and direct github, it is not published on pypi as separate package currently:
 
-```bash
+```
 pip install https://github.com/mhindery/django-suit/archive/develop.zip
 ```
 
